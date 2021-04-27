@@ -6,8 +6,8 @@ import ujson
 
 led = machine.Pin(2, machine.Pin.OUT)
 username = "p3drosalles"
-ssid = 'Casa Fred'
-password = 'pedro04davi'
+ssid = ''
+password = ''
 
 def setup():
     connection = network.WLAN(network.STA_IF)
