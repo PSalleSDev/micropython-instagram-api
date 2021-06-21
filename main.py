@@ -4,7 +4,6 @@ import network
 import urequests
 import ujson
 
-led = machine.Pin(2, machine.Pin.OUT)
 username = "p3drosalles"
 ssid = ''
 password = ''
